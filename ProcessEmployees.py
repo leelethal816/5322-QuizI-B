@@ -45,6 +45,7 @@ for key, value in employees_ts.items():
 print()
 print("=========================================")
 print()
+# print out the total difference between the old salary and the new salary as per image.
 total_increase = new_total - current_total
 print(f"Total increase in salary: ${total_increase:,.2f}")
-# print out the total difference between the old salary and the new salary as per image.
+infile.close()
